@@ -14,15 +14,15 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="pirate", url=f"https://t.me/PiratesBotRepo"
+                        text="Infinity", url=f"https://t.me/Destiny_Infinity_Og"
                     ),
                     InlineKeyboardButton(
-                        text="☆ ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/PiratesMainchat"
+                        text="☆ ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/infinitygx_bot_support"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="☆ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/piratesXnetwork"
+                        text="☆ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/who_cares_qt"
                     ),
                 ],
                 [InlineKeyboardButton("✯ ᴄʟᴏsᴇ ✯", callback_data="close")],
