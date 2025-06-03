@@ -53,7 +53,7 @@ async def helper_private(
 async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
     await message.reply_video(
-        video="https://files.catbox.moe/5h3ub7.mp4",
+        video="https://files.catbox.moe/l0r3oo.mp4",
         caption=_["help_2"],
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
