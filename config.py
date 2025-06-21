@@ -8,21 +8,21 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28715018"))
-API_HASH = getenv("API_HASH", "1284dd4df7e90486ec76d57b5cdb8f5c")
+API_ID = int(getenv("API_ID", "22565342"))
+API_HASH = getenv("API_HASH", "75e035926f72f2f4155a6f5f6e64be03")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN","7762008642:AAGzyNKl7npZviatZ7dRngbYxNtaAkQGYKE")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark_x_musiczz_bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "leo_musicz_bot")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 100000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002540959252))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002881119599))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7926944005"))
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SpyGamer7t2r/musicgoku",
+    "https://github.com/itzarjuna1/Dark-bot-infinityX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gxinfinity_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/infinitygx_bot_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/dark_knight_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -76,7 +76,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
 STRING1 = getenv("STRING_SESSION",  None)
-STRING2 = getenv("STRING_SESSION2", "BQG2KAoAP7eAaAfaIOdHFC89LbcyMFMU1bFW35tfO2lk9Vt2mKQT2oEghHmvYjY7qgtaSk0BsuRCf3eSG9nc-kdEmMOwO6Ui5duHR6nZ8mnC1fSoQBOfN_1Muwd0d8EGfzGqN6wdLnO7mgCVBxtwcVoiwRAwcweURlvl3-3EOZVb82NAPmcfmWrjRkdnQgxTGgLThMmBArQ0ghnFAADSbC3_A70mOnuWtLQNlXzF9YJwk6y3xyvAoytUnbCTu8ENEMQblKQg5S-fPfx7pK-isvr_BKBJsHgK2f0L_HtDSrK8etGxFHCqAuPcZA9z4fAMiiz9oL5exG0Tgs5WFpCRVcTdmlbmNAAAAAHjGAljAA")
+STRING2 = getenv("STRING_SESSION2", "BQFYUd4AkVjGeCzSGzqd7OdkMyLtZ373VPK5ZFihSAgdfuS7ccs-kfHSGE1Lz5yvvXQroBg9Q_XQfmTvHgllIRlcZBwNdB4OQjRQmspcMBa5gFQCWN_4Vw7lhsA-6Hanfts29gWEUAfWJj1Lt4sI29a7ufq9k4oPThym31akZQBscakrugQf-Ed2QwCnORyOzn8-nTzZaVRduBjldci1doBx0n1d8prsS2xLTm9gBbYWsnVfZePFE5l0OJbTSz62w7vLM0qQPMjS6FKXllxkcriO5Dc5RGsKGVwJ-boT0bUrOqM4fV3jB_WLsKiEG7bv4jA-O0zYBgH7LRwU2gi7EGvGjy8ZgQAAAAHQda6jAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -91,14 +91,14 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/998d2db9c003c1625178c-21d9359fc3b61485f7.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/31xt8l.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/40b5617c674e66d94ca91-eb57d11a9f60e230c6.jpg")
-PLAYLIST_IMG_URL = "https://graph.org/file/4e81f00155356f3b5d8f5-a7c36abd8fdd11625c.jpg"
-STATS_IMG_URL = "https://graph.org/file/c07f2ac06917736c5d5ae-4e09340b4b56d5c72d.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/rzp6wh.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/2bjhiv.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/182987be0b1ebc284f931-a69a0305ffc2f5b44e.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/61ed76efa7ccc68c1a860-c83886fe4ff4bcae94.jpg"
-STREAM_IMG_URL = "https://graph.org/file/68d0fd87de32c473d16ba-63a3fbbaa7d6a0f731.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/b99b04565b61a14cf8462-d10f6c3937252aedcc.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/d52nnr.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/a9i5ji.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ack2ez.jpg"
 YOUTUBE_IMG_URL = "https://graph.org/file/2bc20c29f052468a26bd0-7be6152e54d7342bac.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/c85291bab933d84ed5184-db9128c50cd2a54cca.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/c85291bab933d84ed5184-db9128c50cd2a54cca.jpg"
